@@ -4,6 +4,6 @@
   tasks:
     - name: "Install neofetch"
       apt:
-        packages:
+        package:
           - neofetch
   
