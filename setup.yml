@@ -1,10 +1,7 @@
 - name: setup
   hosts: localhost
-  become: yes
   connection: local
   tasks:
     - name: "Install neofetch"
-      apt:
-        pkg:
-          - neofetch
-  
+      debug:
+        msg: "Hello"
